@@ -16,4 +16,4 @@ app.use(errorHandler)
 app.use(cors())
 app.use('/uploads', express.static(join(__dirname, '..', 'uploads')))
 
-app.listen(3333);
+app.listen(3333) 
